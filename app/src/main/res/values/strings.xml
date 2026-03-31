@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ассистент доставщика</string>
+    <string name="accessibility_service_description">
+        Читает экран приложения Самокат и позволяет управлять доставкой голосом
+    </string>
+
+    <!-- Главный экран -->
+    <string name="status_service_active">Сервис активен</string>
+    <string name="status_service_inactive">Сервис отключён</string>
+    <string name="btn_enable_service">Включить в настройках</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="wake_word_label">Имя ассистента:</string>
+    <string name="current_order_label">Текущий заказ:</string>
+    <string name="no_order">Заказов нет</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_wake_word">Имя ассистента (wake word)</string>
+    <string name="settings_wake_word_hint">Например: Борт, Навигатор, Алиса</string>
+    <string name="settings_alerts_title">Предупреждения таймера</string>
+    <string name="settings_add_alert">Добавить предупреждение</string>
+    <string name="alert_seconds_hint">Секунд до конца</string>
+    <string name="alert_text_hint">Текст озвучки</string>
+    <string name="alert_delete">Удалить</string>
+    <string name="save">Сохранить</string>
+
+    <!-- Голосовые команды -->
+    <string name="voice_cmd_start">начать доставку</string>
+    <string name="voice_cmd_finish">завершить доставку</string>
+    <string name="voice_cmd_info">расскажи заказ</string>
+    <string name="voice_cmd_darkstore">я в даркторе</string>
+
+    <!-- Озвучка -->
+    <string name="tts_service_started">Ассистент запущен</string>
+    <string name="tts_listening">Слушаю</string>
+    <string name="tts_no_order">Активных заказов нет</string>
+    <string name="tts_delivery_started">Доставка начата</string>
+    <string name="tts_delivery_finished">Доставка завершена</string>
+    <string name="tts_darkstore_confirmed">Возврат подтверждён</string>
+</resources>
